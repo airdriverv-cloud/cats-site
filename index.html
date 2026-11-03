@@ -3,29 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Мир кошек — породы, уход, питание, здоровье</title>
-<meta name="description" content="Всё о кошках: популярные породы, правильный уход, питание и здоровье питомца.">
+<title>Мир кошек — содержание, уход, питание, здоровье</title>
+<meta name="description" content="Статьи о содержании кошек: лоток, питание, здоровье, игры. Породы и практичные советы владельцам.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1>🐱 Мир кошек</h1>
-<nav><a href="#breeds">Породы</a><a href="#care">Уход</a><a href="#food">Питание</a><a href="#health">Здоровье</a></nav>
-</header>
+<header><div class="bar"><a class="logo" href="index.html"><i class="fa-solid fa-cat"></i> Мир кошек</a><button class="burger" aria-label="Меню"><i class="fa-solid fa-bars"></i></button><nav id="menu"><a href="#articles"><i class="fa-solid fa-book-open"></i>Статьи</a><a href="#breeds"><i class="fa-solid fa-paw"></i>Породы</a></nav></div></header>
 <main>
-<section class="hero"><h2>Всё, что нужно знать о вашем пушистом друге</h2><p>Короткие и практичные материалы для владельцев кошек.</p></section>
-<section id="breeds"><h2>Популярные породы</h2>
-<table><thead><tr><th>Порода</th><th>Характер</th><th>Шерсть</th></tr></thead><tbody>
+<section class="hero"><i class="fa-solid fa-cat"></i><h2>Всё о содержании кошек</h2><p>Практичные статьи для тех, у кого дома живёт пушистый друг.</p><a class="btn" href="#articles">Читать статьи</a></section>
+<section id="articles"><h2>Статьи</h2><div class="cards">
+<a class="card" href="articles/lotok.html"><i class="fa-solid fa-toilet-paper"></i><h3>Лоток и наполнитель</h3><p>Как выбрать и где поставить.</p></a>
+<a class="card" href="articles/pitanie.html"><i class="fa-solid fa-bowl-food"></i><h3>Чем кормить кошку</h3><p>Сухой корм, влажный, режим.</p></a>
+<a class="card" href="articles/zdorovie.html"><i class="fa-solid fa-syringe"></i><h3>Здоровье и прививки</h3><p>График и тревожные признаки.</p></a>
+<a class="card" href="articles/igry.html"><i class="fa-solid fa-baseball"></i><h3>Игры и когтеточка</h3><p>Как занять кошку дома.</p></a>
+</div></section>
+<section id="breeds"><h2>Популярные породы</h2><div class="table-wrap"><table><thead><tr><th>Порода</th><th>Характер</th><th>Шерсть</th></tr></thead><tbody>
 <tr><td>Британская короткошёрстная</td><td>Спокойная, независимая</td><td>Плотная, короткая</td></tr>
 <tr><td>Мейн-кун</td><td>Дружелюбный, игривый</td><td>Длинная, густая</td></tr>
 <tr><td>Сфинкс</td><td>Ласковый, активный</td><td>Почти без шерсти</td></tr>
 <tr><td>Сиамская</td><td>Общительная, голосистая</td><td>Короткая</td></tr>
 <tr><td>Шотландская вислоухая</td><td>Мягкая, привязчивая</td><td>Короткая или длинная</td></tr>
-</tbody></table></section>
-<section id="care"><h2>Уход</h2><ul><li>Лоток: чистить ежедневно, менять наполнитель по необходимости.</li><li>Шерсть: вычёсывать 1–2 раза в неделю, длинношёрстных — чаще.</li><li>Когти: подстригать раз в 2–3 недели, иметь когтеточку.</li><li>Игры: 15–30 минут активной игры в день.</li></ul></section>
-<section id="food"><h2>Питание</h2><p>Кошка — хищник, ей нужен рацион с высоким содержанием животного белка. Выбирайте полнорационный корм по возрасту и состоянию здоровья, обеспечьте постоянный доступ к чистой воде.</p></section>
-<section id="health"><h2>Здоровье</h2><ul><li>Плановая вакцинация и обработка от паразитов.</li><li>Осмотр у ветеринара не реже раза в год.</li><li>Стерилизация/кастрация — по рекомендации врача.</li><li>Срочно к врачу: отказ от еды более суток, рвота, затруднённое дыхание.</li></ul></section>
+</tbody></table></div></section>
 </main>
-<footer><p>© Мир кошек. Информация носит справочный характер и не заменяет консультацию ветеринара.</p></footer>
+<footer><p><i class="fa-solid fa-heart"></i> Мир кошек. Материалы справочные и не заменяют консультацию ветеринара.</p></footer>
+<script src="script.js"></script>
 </body>
 </html>
